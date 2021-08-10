@@ -1,6 +1,5 @@
 from random import randint
 
-
 def guess_game():
     """
         Program choose random int from 1 to 100 and user need to guess it

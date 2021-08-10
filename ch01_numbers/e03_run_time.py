@@ -24,11 +24,10 @@ def run_timing():
 
 
 def digit_concats(a, b, c):
-    """This is beyond the exercise task.
-        :param a: float
-        :param b: int
-        :param c: int
-        :return: float (b digits before a).count(c digits after)
+    """
+    This function takes a float and two integers (before and after). The
+    function should return a float consisting of before digits before the
+    decimal point and after digits after.
     """
     a_str = str(a)
     p = a_str.index(".")
@@ -44,7 +43,6 @@ def decimal_sum(*args):
         except:
             print(f"Argument [ {numb}  ]  is skipped... not a float")
     return res
-
 
 print(run_timing())
 # print(digit_concats(12345.67890, 3, 3))  # ==> return 345.678
