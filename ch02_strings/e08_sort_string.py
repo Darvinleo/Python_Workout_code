@@ -15,7 +15,7 @@ def strsort(a_string):
         returns a string with its characters sorted.
     """
     spl_str = a_string.split()
-    ll_word = len(max(spl_str, key=lambda x: len(x)))
+    ll_word = len(max(spl_str, key=len))
     print(f"Last word alphabetically is: {sorted(spl_str)[-1]}")
     print(
         f"Longest words is: "

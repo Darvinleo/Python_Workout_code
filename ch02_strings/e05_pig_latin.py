@@ -41,6 +41,3 @@ def punct_shifter(word):
     return ''
 
 # print(pig_latina('Word'))
-
-if __name__ == '__pig_latina__':
-    pig_latina()

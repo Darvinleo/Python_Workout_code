@@ -2,7 +2,7 @@
     Solution to chapter 2, exercise 6: pl_sentence
     We need to import here module from previous exercise
 """
-import e05_pig_latin as pigl
+from e05_pig_latin import pig_latina as pigl
 
 
 def pl_sentence():
@@ -13,7 +13,7 @@ def pl_sentence():
         [ My code can handle punctuation and word.istitle = True words ]
     """
     sentence = input("Please input your sentence to convert to pig latina: ")
-    return " ".join([pigl.pig_latina(word) for word in sentence.split()])
+    return " ".join([pigl(word) for word in sentence.split()])
 
 
 print(pl_sentence())
