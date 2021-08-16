@@ -4,7 +4,7 @@ from collections import Counter
 # import sort_vowels_count function from previous exercice
 from e11_Alphabetize_Names import sort_vowels_count as sv_count
 
-WORDS = ['this', 'is', 'an', 'elementary', 'test', 'example','elementari']
+WORDS = ['this', 'is', 'an', 'elementary', 'test', 'example', 'elementari']
 
 
 def most_repeating_letter_count(word):
